@@ -42,15 +42,6 @@ let g:indentLine_color_term = 139
 " Background (Vim, GVim)
 "let g:indentLine_bgcolor_term = 202
 
-" ==== For Tabs ==========
-"Vertical Lines for Tab lines 
-set list lcs=tab:\|\ 
-if &encoding == "utf-8"
-	set listchars=tab:│\ ,trail:⋅,nbsp:␣
-else
-	set listchars=tab:\|\ ,trail:.,nbsp:~
-endif
-
 "=======================
 "       Folding 
 "=======================
