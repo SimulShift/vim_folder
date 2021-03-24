@@ -6,12 +6,12 @@ call plug#begin('~/.vim/plugged')
 "==== FileType Plugins =============================
 	"Go
 		"Plug 'fatih/vim-go'
-	"Javascript
-		"Plug 'pangloss/vim-javascript'
-"==== Language Servers ==============================
+	"Javascript syntax highlighting
+		Plug 'pangloss/vim-javascript'
+"==== Vim lsp ==============================
 		Plug 'prabirshrestha/vim-lsp'
 		Plug 'mattn/vim-lsp-settings'
-"==== Asyncomplete =====================================
+"==== Asyncomplete Sources =====================================
 		Plug 'prabirshrestha/asyncomplete.vim'
 		Plug 'prabirshrestha/asyncomplete-lsp.vim'
 		"Omni
@@ -38,10 +38,10 @@ call plug#begin('~/.vim/plugged')
 		Plug 'chrisbra/changesplugin'
 	" Vertical Lines for non-tab spacing
 		Plug 'Yggdroot/indentLine'
+	" Highlight based on indent level
+		"Plug 'emilsoman/indent-highlight.vim'
 "==== Workflow =======================
 	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
-	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-	Plug 'junegunn/fzf.vim'
 	Plug 'liuchengxu/vim-which-key'
 	Plug 'tpope/vim-surround'
 	Plug 'godlygeek/tabular'
@@ -49,13 +49,9 @@ call plug#begin('~/.vim/plugged')
 	"Plug 'jiangmiao/auto-pairs'
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 "	Plug 'plasticboy/vim-markdown'
-"Unused===============================
-	"Linter Engine
+"==== Linters/Fixers ==============================
 		"Plug 'dense-analysis/ale'
 		"Plug 'prettier/vim-prettier'
-	"Plug 'farseer90718/vim-taskwarrior'
-	" Highlight based on indent level
-		"Plug 'emilsoman/indent-highlight.vim'
 call plug#end()
 
 "==== Testing =============
