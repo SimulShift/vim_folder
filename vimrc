@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 	"Go
 		"Plug 'fatih/vim-go'
 	"Javascript
+    Plug 'digitaltoad/vim-pug'
 		"Plug 'pangloss/vim-javascript'
 "==== Language Servers ==============================
 		Plug 'prabirshrestha/vim-lsp'
