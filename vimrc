@@ -51,8 +51,12 @@ call plug#begin('~/.vim/plugged')
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 "	Plug 'plasticboy/vim-markdown'
 "==== Linters/Fixers ==============================
-		"Plug 'dense-analysis/ale'
-		"Plug 'prettier/vim-prettier'
+  "Plug 'dense-analysis/ale'
+  " post install (yarn install | npm install) 
+  " then load plugin only for editing supported files
+  Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 call plug#end()
 
 "==== Testing =============
