@@ -10,24 +10,24 @@ call plug#begin('~/.vim/plugged')
     Plug 'digitaltoad/vim-pug'
 		Plug 'pangloss/vim-javascript'
 "==== Vim lsp ==============================
-		Plug 'prabirshrestha/vim-lsp'
-		Plug 'mattn/vim-lsp-settings'
+		"Plug 'prabirshrestha/vim-lsp'
+		"Plug 'mattn/vim-lsp-settings'
 "==== Asyncomplete Sources =====================================
-		Plug 'prabirshrestha/asyncomplete.vim'
-		Plug 'prabirshrestha/asyncomplete-lsp.vim'
+		"Plug 'prabirshrestha/asyncomplete.vim'
+		"Plug 'prabirshrestha/asyncomplete-lsp.vim'
 		"Omni
-		Plug 'yami-beta/asyncomplete-omni.vim'
+		"Plug 'yami-beta/asyncomplete-omni.vim'
 		"file directories
-		Plug 'prabirshrestha/asyncomplete-file.vim'
+		"Plug 'prabirshrestha/asyncomplete-file.vim'
 		"Emmet
-		Plug 'prabirshrestha/asyncomplete-emmet.vim'
+		"Plug 'prabirshrestha/asyncomplete-emmet.vim'
 		"Ultisnips
-		Plug 'prabirshrestha/asyncomplete-ultisnips.vim'
+		"Plug 'prabirshrestha/asyncomplete-ultisnips.vim'
 "==== Snippets =================
 	"Snippets
-		Plug 'SirVer/ultisnips'
-		Plug 'honza/vim-snippets'
-		Plug 'mattn/emmet-vim'
+		"Plug 'SirVer/ultisnips'
+		"Plug 'honza/vim-snippets'
+		"Plug 'mattn/emmet-vim'
 "==== Styling======================================
 	"Colorschemes
 		Plug 'morhetz/gruvbox'
@@ -38,17 +38,17 @@ call plug#begin('~/.vim/plugged')
 	"Gutter
 		Plug 'chrisbra/changesplugin'
 	" Vertical Lines for non-tab spacing
-		Plug 'Yggdroot/indentLine'
+		"Plug 'Yggdroot/indentLine'
 	" Highlight based on indent level
 		"Plug 'emilsoman/indent-highlight.vim'
 "==== Workflow =======================
-	Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
-	Plug 'liuchengxu/vim-which-key'
-	Plug 'tpope/vim-surround'
+	"Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
+	"Plug 'liuchengxu/vim-which-key'
+	"Plug 'tpope/vim-surround'
 	Plug 'godlygeek/tabular'
-	Plug 'AndrewRadev/splitjoin.vim'
+	"Plug 'AndrewRadev/splitjoin.vim'
 	"Plug 'jiangmiao/auto-pairs'
-	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+	"Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 "	Plug 'plasticboy/vim-markdown'
 "==== Linters/Fixers ==============================
   "Plug 'dense-analysis/ale'
@@ -62,4 +62,4 @@ call plug#end()
 "==== Testing =============
 set viminfo+=n~/.vim/viminfo
 "source ~/.vim/src/RunShellCommandPopup.vim
-let g:user_emmet_leader_key=','
+"let g:user_emmet_leader_key=','
