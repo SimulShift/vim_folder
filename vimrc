@@ -48,7 +48,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'godlygeek/tabular'
 	"Plug 'AndrewRadev/splitjoin.vim'
 	"Plug 'jiangmiao/auto-pairs'
-	"Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 "	Plug 'plasticboy/vim-markdown'
 "==== Linters/Fixers ==============================
   "Plug 'dense-analysis/ale'
