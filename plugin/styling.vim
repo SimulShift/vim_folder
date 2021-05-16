@@ -5,7 +5,7 @@ syntax on
 
 " Colorschemes
 " srcery
-colorscheme srcery
+"colorscheme srcery
 " gruvbox dark and light modes background modes
 "autocmd vimenter * colorscheme gruvbox
 "set background=dark

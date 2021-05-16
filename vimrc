@@ -7,8 +7,8 @@ call plug#begin('~/.vim/plugged')
 	"Go
 		"Plug 'fatih/vim-go'
 	"Javascript
-    Plug 'digitaltoad/vim-pug'
-		Plug 'pangloss/vim-javascript'
+    "Plug 'digitaltoad/vim-pug'
+		"Plug 'pangloss/vim-javascript'
 "==== Vim lsp ==============================
 		"Plug 'prabirshrestha/vim-lsp'
 		"Plug 'mattn/vim-lsp-settings'
@@ -30,13 +30,13 @@ call plug#begin('~/.vim/plugged')
 		"Plug 'mattn/emmet-vim'
 "==== Styling======================================
 	"Colorschemes
-		Plug 'morhetz/gruvbox'
-		Plug 'srcery-colors/srcery-vim'
+		"Plug 'morhetz/gruvbox'
+		"Plug 'srcery-colors/srcery-vim'
 	"Status Line
-		Plug 'vim-airline/vim-airline'
-		Plug 'vim-airline/vim-airline-themes'
+		"Plug 'vim-airline/vim-airline'
+		"Plug 'vim-airline/vim-airline-themes'
 	"Gutter
-		Plug 'chrisbra/changesplugin'
+		"Plug 'chrisbra/changesplugin'
 	" Vertical Lines for non-tab spacing
 		"Plug 'Yggdroot/indentLine'
 	" Highlight based on indent level
@@ -45,7 +45,7 @@ call plug#begin('~/.vim/plugged')
 	"Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 	"Plug 'liuchengxu/vim-which-key'
 	"Plug 'tpope/vim-surround'
-	Plug 'godlygeek/tabular'
+	"Plug 'godlygeek/tabular'
 	"Plug 'AndrewRadev/splitjoin.vim'
 	"Plug 'jiangmiao/auto-pairs'
 	"Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -54,9 +54,9 @@ call plug#begin('~/.vim/plugged')
   "Plug 'dense-analysis/ale'
   " post install (yarn install | npm install) 
   " then load plugin only for editing supported files
-  Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+  "Plug 'prettier/vim-prettier', {
+  "\ 'do': 'yarn install',
+  "\ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 call plug#end()
 
 "==== Testing =============
