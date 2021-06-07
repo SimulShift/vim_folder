@@ -8,7 +8,7 @@ set clipboard=unnamed
 set hidden
 set expandtab
 set backspace=indent,eol,start
-set completeopt=menuone,noinsert,noselect,popuphidden
+"set completeopt=menuone,noinsert,noselect,popuphidden
 set autoread
 set tgc
 set scrolloff=5
