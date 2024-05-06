@@ -3,6 +3,8 @@ let mapleader = " "
 let g:Plugin='~/.vim/plugin/'
 
 call plug#begin('~/.vim/plugged')
+"==== Ale ==================================
+    Plug 'dense-analysis/ale'
 "==== FileType Plugins =============================
 	"Go
 		"Plug 'fatih/vim-go'
@@ -63,3 +65,15 @@ call plug#end()
 set viminfo+=n~/.vim/viminfo
 "source ~/.vim/src/RunShellCommandPopup.vim
 "let g:user_emmet_leader_key=','
+
+" Enable ALE
+let g:ale_enabled = 1
+
+" Use pylint as the default linter for Python
+let g:ale_python_pylint_executable = 'pylint'
+let g:ale_linters = {'python': ['pylint']}
+
+" Display ALE diagnostics in the gutter
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '⚠︎'

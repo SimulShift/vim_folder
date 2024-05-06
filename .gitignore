@@ -2,3 +2,4 @@ plugged/
 .netrwhist
 viminfo
 ignored.vim
+*.swp
